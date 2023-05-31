@@ -11,8 +11,6 @@ def calculate_simple_interest(principal, time, gender, senior_citizen):
     interest = (principal * rate * time) / 100
     return interest
 
-
-# Example usage
 principal = float(input("Enter the principal amount: "))
 time = float(input("Enter the time period (in years): "))
 gender = input("Enter the gender (male/female): ")
